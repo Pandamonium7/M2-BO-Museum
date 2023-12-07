@@ -34,6 +34,10 @@ p{
     margin: 0;
     box-sizing: border-box;
 }
+nav{
+
+    background-color: black;
+}
 
 ul{
     display: flex;
@@ -41,13 +45,15 @@ ul{
     justify-content: flex-end;
     gap: 2rem;
     list-style-type: none;
-
     font-size: 30px;
     padding: 20px;
-    margin: 50px;
     white-space: nowrap;
 
 
+}
+
+li{
+    color: white;
 }
 
 
@@ -58,5 +64,6 @@ ul{
 
 img{
     width: 40%;
+    filter: invert();
     
 }
