@@ -43,11 +43,20 @@ ul{
     list-style-type: none;
 
     font-size: 30px;
-    padding: 50px;
+    padding: 20px;
+    margin: 50px;
+    white-space: nowrap;
 
 
 }
+
+
 #BuyTicket{
     font-size: 50px;
     border: 1px solid black;
+}
+
+img{
+    width: 40%;
+    
 }
