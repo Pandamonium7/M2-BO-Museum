@@ -55,15 +55,28 @@ ul{
 li{
     color: white;
 }
-
+.li-logo{
+    justify-self: flex-start;
+}
 
 #BuyTicket{
     font-size: 50px;
     border: 1px solid black;
 }
 
-img{
-    width: 40%;
+.logo{
+    max-height: 200px;
+    max-width: 200px;
+
     filter: invert();
-    
+    float: left;
+    justify-self: start;
+}
+
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    background-image: url(img/backgroundimagewebsite.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
