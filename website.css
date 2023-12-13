@@ -72,7 +72,7 @@ li{
 
     filter: invert();
     float: left;
-    justify-self: start;
+    
 }
 
 body{
@@ -82,3 +82,4 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+
