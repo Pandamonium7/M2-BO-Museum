@@ -55,7 +55,9 @@ ul{
 li{
     color: white;
 }
-
+.li-logo{
+    justify-self: flex-start;
+}
 
 #BuyTicket{
     font-size: 40px;
@@ -64,8 +66,24 @@ li{
     border-radius:10px 10px;
 }
 
+<<<<<<< HEAD
 img{
     width: 20%;
+=======
+.logo{
+    max-height: 200px;
+    max-width: 200px;
+
+>>>>>>> 5c29b0f48fec6a5fa66b14d04c8ec401133b65db
     filter: invert();
-    
+    float: left;
+    justify-self: start;
+}
+
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    background-image: url(img/backgroundimagewebsite.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
