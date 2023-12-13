@@ -58,12 +58,14 @@ li{
 
 
 #BuyTicket{
-    font-size: 50px;
-    border: 1px solid black;
+    font-size: 40px;
+    background-color: rgb(67, 169, 67);
+    padding: 12px;
+    border-radius:10px 10px;
 }
 
 img{
-    width: 40%;
+    width: 20%;
     filter: invert();
     
 }
