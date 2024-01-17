@@ -84,9 +84,15 @@ body{
 }
 
 
-#section{
+.section{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+}
+
+.section > p{
+    color: white;
+    padding: 40px;
 }
 
 #splash{
@@ -98,7 +104,8 @@ body{
 }
 
 #text{
-    display: inline-block;
+    /*display: inline-block;*/
+    align-items: center;
     background-color: white;
     width: 300px; 
 }
