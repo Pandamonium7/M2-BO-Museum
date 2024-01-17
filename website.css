@@ -59,6 +59,7 @@ li{
 }
 .li-logo{
     justify-content: flex-start;
+
 }
 
 #BuyTicket{
@@ -91,7 +92,7 @@ body{
 
 .section > p{
     color: white;
-    padding: 40px;
+    padding: 20px;
 }
 
 img#splash{
@@ -102,14 +103,7 @@ img#splash{
     margin: 40px; 
     border-radius: 8px;
 }
-/*
-p#text{
-    width: 30vw;    
-    align-items: center;
-    background-color: white;
-    width: 300px; 
-}
-*/
+
 
 @media screen and (max-width:1000px) {
     img#splash{
