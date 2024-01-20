@@ -104,6 +104,25 @@ img#splash{
     border-radius: 8px;
 }
 
+article{
+    color: white;
+}
+
+article > h1{
+   
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+}
+
+article > p{
+   
+    display: flex;
+    justify-content: center;
+    margin-inline: 10%;
+    padding: 20px;
+}
+
 
 @media screen and (max-width:1000px) {
     img#splash{
