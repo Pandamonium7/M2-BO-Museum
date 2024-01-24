@@ -40,7 +40,7 @@ header{
 }
 
 nav{
-    background-color: black;
+    background-color: #222831;
 }
 
 ul{
@@ -49,16 +49,28 @@ ul{
     justify-content: flex-end;
     gap: 2rem;
     list-style-type: none;
-    font-size: 30px;
+    font-size: 24px;
     padding: 20px;
-    white-space: nowrap;
+   /* white-space: nowrap; */
 }
 
 li{
     color: white;
+    margin-right: 10px;
+    background-color: green;
+    padding: 10px;
 }
+
+a{
+    text-decoration: none;
+}
+
 .li-logo{
     justify-content: flex-start;
+}
+
+img.logo{   
+    align-items: center;
 }
 
 #BuyTicket{
@@ -85,29 +97,55 @@ body{
     background-attachment: fixed;
 }
 
+main{
+    width:90vw;
+    margin: 0 auto;
+}
+
 .section{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 60px;
 }
 
 .section > p{
     color: white;
-    padding: 40px;
+    padding: 30px;
+    background-color: #222831;
 }
 
 img#splash{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 60vw; 
+    width: 70%;
     margin: 40px; 
     border-radius: 8px;
 }
 
 p#text{
-    width: 20vw;    
+    width: 30%;    
     background-color: white;
+}
+
+article.overview{
+    display: flex;
+    width: 90vw;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+h1.galleries{
+    color: white;
+    font-size: 30px;
+    margin: 40px 0;
+}
+
+
+article.overview > img{
+    width: 400px;
+    height: 400px;
 }
 
 footer{
@@ -121,21 +159,21 @@ footer{
 
 @media screen and (max-width:1000px) {
     img#splash{
-        width: 90vw;
+        width: 80vw;
         margin: 0 auto;
     }
-    p#text{
-        display: block;
-        width: 90vw;
-    }
+
     ul{
         font-size:15px; 
     }
 
     .logo{
         width:100px;
-        justify-content: center;
-        align-items: center;
     }
-
+    /*
+    .section > p{
+        display: block;
+        width: 90%;
+    }
+    */
 }
