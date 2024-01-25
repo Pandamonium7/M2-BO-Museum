@@ -98,12 +98,13 @@ body{
 }
 
 main{
-    width:90vw;
+    width:95vw;
     margin: 0 auto;
 }
 
 .section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     margin-top: 60px;
@@ -185,10 +186,7 @@ article > p{
     .logo{
         width:100px;
     }
-    /*
-    .section > p{
-        display: block;
-        width: 90%;
+    footer{
+        width: 100vw;
     }
-    */
 }
