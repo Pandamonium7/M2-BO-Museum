@@ -158,9 +158,11 @@ article.overview{
 }
 
 h1.galleries{
+    display: flex;
     color: white;
     font-size: 30px;
     margin: 40px 0;
+    justify-content: center;
 }
 
 article > h1{
