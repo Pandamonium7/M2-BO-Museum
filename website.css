@@ -76,10 +76,15 @@ a{
 }
 
 #BuyTicket{
-    font-size: 40px;
-    background-color: rgb(67, 169, 67);
+    font-size: 50px;
+    background-color: white;
     padding: 12px;
     border-radius:10px 10px;
+}
+
+#Tickettext{
+    color: black;
+    font-weight: bold;
 }
 
 .logo{
