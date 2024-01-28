@@ -10,18 +10,23 @@ html{
 }
 
 a{
-    color: white;
+    color: rgb(255, 255, 255);
     transition: all .4s ease;
     -webkit-transition: all 0.4 ease;
 }
 
 a:hover{
-    color:rgb(209, 209, 209);
+    color:#a8a8a8;
+    border-bottom: 1px solid #a8a8a8;
 
 }
 
+a#Tickettext:hover{
+    border-bottom: 0;
+}
+
 header{
-    width: 100vw;
+    width: 99vw;
 }
 
 #Footernav{
@@ -74,13 +79,26 @@ a{
     justify-content: flex-start;  
     align-items: center;
 }
+/* unused safe to delete */
 
 #BuyTicket{
     font-size: 50px;
     background-color: white;
     padding: 12px;
     border-radius:10px 10px;
+    transition: all .4s ease;
+    -webkit-transition: all 0.4 ease;
 }
+
+#BuyTicket:hover{
+    background-color: #24ec93;
+}
+
+/* shop cart test  
+#BuyTicket:hover > #Tickettext{
+    color:  white;
+}
+ */
 
 #Tickettext{
     color: black;
@@ -150,6 +168,7 @@ article.overview{
     width: 90vw;
     margin: 20px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 h1.galleries{
@@ -203,16 +222,25 @@ article > p{
         width: 90vw;
         margin: 0 auto;
     }
+
+    /*niet gebruikt 
     p#text{
         display: block;
         width: 90vw;
     }
+
+    */
     ul{
-        font-size:15px; 
+        font-size:20px; 
+    }
+
+    div.column{
+        width: 90vw;
+        margin: 50px 0;
     }
 
     .logo{
-        width:100px;
+        width:200px;
     }
     footer{
         width: 100vw;
