@@ -47,13 +47,16 @@ header{
     margin: 10px 0;
 }
 
-
+p.divider{
+    font-size: 40px;
+    color: white;
+}
 
 nav{
     background-color: rgb(0, 0, 0);
 }
 
-ul{
+nav > ul{
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -64,7 +67,7 @@ ul{
     white-space: nowrap;
 }
 
-li{
+nav > li{
     color: white;
     margin-right: 10px;
     padding: 10px;
@@ -73,13 +76,6 @@ li{
 a{
     text-decoration: none;
 }
-
-/* unused?*/
-.li-logo{
-    justify-content: flex-start;  
-    align-items: center;
-}
-/* unused safe to delete */
 
 #BuyTicket{
     font-size: 50px;
@@ -158,17 +154,29 @@ img#splash{
     border-radius: 8px;
 }
 
-p#text{
-    width: 30%;    
-    background-color: white;
-}
-
+/* slideshow article */
 article.overview{
     display: flex;
     width: 90vw;
     margin: 20px;
-    justify-content: space-around;
+
+}
+
+article.overview img{
+    max-width: 400px;
+
+}
+
+.wrapper{
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+li.carouselItem{
+    list-style-type: none;
 }
 
 h1.galleries{
@@ -223,15 +231,9 @@ article > p{
         margin: 0 auto;
     }
 
-    /*niet gebruikt 
-    p#text{
-        display: block;
-        width: 90vw;
-    }
-
-    */
-    ul{
+    nav > ul{
         font-size:20px; 
+        gap: 1em;
     }
 
     div.column{
