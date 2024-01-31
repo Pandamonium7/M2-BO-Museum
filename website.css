@@ -309,7 +309,11 @@ article > p{
     .logo{
         width:200px;
     }
+    .card .card-body{
+        top: 75%;
+    }
     footer{
         width: 100vw;
     }
+
 }
